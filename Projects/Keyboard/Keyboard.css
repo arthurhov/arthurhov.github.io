@@ -1,0 +1,123 @@
+.KeyboardDiv{
+    display: flex;
+    width: 1056px;
+    height: 333px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.Keyboard{
+    display: flex;
+    width: 1080px;
+    height: 360px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(39, 39, 39);
+    align-items: center;
+}
+.keyhide{
+    display: none;
+}
+.btnn{
+    display: none;
+}
+.btnf{
+    display:inline-block;
+    height: 70px;
+    width: 80px;
+    background-color: #535353;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.Body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    height: 70px;
+    width: 80px;
+    background-color: #a1a1a1;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btn2{
+    height: 100%;
+    width: 100%;
+    background-color: #a1a1a1;
+    border: none;
+    color: white;
+}
+.btn3{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #a1a1a1;
+    border: none;
+    color: white;
+}
+.btnE{
+    height: 70px;
+    width: 140px;
+    background-color: #a1a1a1;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btnB{
+    height: 70px;
+    width: 167px;
+    background-color: #a1a1a1;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btnS{
+    height: 70px;
+    width: 80px;
+    background-color: #535353;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btnC{
+    display:inline-block;
+    height: 70px;
+    width: 80px;
+    background-color: #535353;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btna{
+    height: 30px;
+    width: 44px;
+    background-color: #a1a1a1;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.btnsp{
+    height: 70px;
+    width: 520px;
+    background-color: #a1a1a1;
+    margin: 4px;
+    border: none;
+    color: white;
+}
+.img3{
+    width: 25px;
+    height: 20px;
+}
+.img4{
+    width: 25px;
+    height: 25px;
+}
+.ctrlbtnCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

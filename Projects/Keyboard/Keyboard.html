@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="glitch.jpg" type="image/jpg">
+    <link rel="stylesheet" href="Keyboard.css">
+    <title>Keyboard</title>
+    <style>
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+        }
+        
+        .btn {
+          position: relative;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+        }
+        
+        .Btnfront, .Btnback {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+        
+        .Btnback {
+          transform: rotateY(180deg);
+        }
+        .btn.is-flipped {
+          transform: rotateY(-180deg);
+        }
+        .divX {
+            width: 100%;
+            display:flex;
+            justify-content: flex-end;
+        }
+        #Xbtn{
+            background-color: #a1a1a1;
+            border-color: rgb(82, 82, 82);
+            color: white;
+        }
+        </style>
+</head>
+<body class="Body">
+    <input type="text" id="Keyboardinp">
+    <button class="btnn" onclick="KeyboardShow()" id="btnn"><img  id="btnimg" src="Без_названия-removebg-preview.png" alt="" class="img4"></button>
+    <div class="Keyboard div" id="keybord">
+    <div class="KeyboardDiv" id="keybord2"> 
+        <div class="divX"><button id="Xbtn">_</button><button id="Xbtn" onclick="KeyboardHide()">X</button></div>
+<div class="btn">
+        
+    <button class="qbtn btn2 btn3 Btnfront" id="qbtn" onclick="q()">q</button>
+    <button class="Btnback btn2" onclick="Q()">Q</button>
+</div>
+<div class="btn"> 
+    
+    <button class="wbtn btn2 btn3 Btnfront" id="wbtn" onclick="w()">w</button>
+    <button class="Btnback btn2" onclick="W()">W</button>
+</div>
+<div class="btn">
+    
+    <button class="ebtn btn2 btn3 Btnfront" id="ebtn" onclick="e()">e</button>
+    <button class="Btnback btn2" onclick="E()">E</button>
+</div>
+<div class="btn">
+    
+    <button class="rbtn btn2 btn3 Btnfront" id="rbtn" onclick="r()">r</button>
+    <button class="Btnback btn2" onclick="R()">R</button>
+</div>
+<div class="btn">
+    
+    <button class="tbtn btn2 btn3 Btnfront" id="tbtn" onclick="t()">t</button>
+    <button class="Btnback btn2" onclick="T()">T</button>
+</div>
+<div class="btn">
+    
+    <button class="ybtn btn2 btn3 Btnfront" id="ybtn" onclick="y()">y</button>
+    <button class="Btnback btn2" onclick="Y()">Y</button>
+</div>
+<div class="btn">
+    
+    <button class="ubtn btn2 btn3 Btnfront" id="ubtn" onclick="u()">u</button>
+    <button class="Btnback btn2" onclick="U()">U</button>
+</div>
+<div class="btn">
+    
+    <button class="ibtn btn2 btn3 Btnfront" id="ibtn" onclick="i()">i</button>
+    <button class="Btnback btn2" onclick="I()">I</button>
+</div>
+<div class="btn">
+    
+    <button class="obtn btn2 btn3 Btnfront" id="obtn" onclick="o()">o</button>
+    <button class="Btnback btn2" onclick="O()">O</button>
+</div>
+<div class="btn">
+    
+    <button class="pbtn btn2 btn3 Btnfront" id="pbtn" onclick="p()">p</button>
+    <button class="Btnback btn2" onclick="P()">P</button>
+</div>
+
+        <button class="Backbtn btnB" id="backbtn" onclick="Backbtn()"><img src="backspace.png" alt="" class="img3"></button>
+
+<div class="btn">
+    
+    <button class="abtn btn2 btn3 Btnfront" id="abtn" onclick="a()">a</button>
+    <button class="Btnback btn2" onclick="A()">A</button>
+</div>
+<div class="btn">
+    
+    <button class="sbtn btn2 btn3 Btnfront" id="sbtn" onclick="s()">s</button>
+    <button class="Btnback btn2" onclick="S()">S</button>
+</div>
+<div class="btn">
+    
+    <button class="dbtn btn2 btn3 Btnfront" id="dbtn" onclick="d()">d</button>
+    <button class="Btnback btn2" onclick="D()">D</button>
+</div>
+<div class="btn">
+    
+    <button class="fbtn btn2 btn3 Btnfront" id="fbtn" onclick="f()">f</button>
+    <button class="Btnback btn2" onclick="F()">F</button>
+</div>
+<div class="btn">
+    
+    <button class="gbtn btn2 btn3 Btnfront" id="gbtn" onclick="g()">g</button>
+    <button class="Btnback btn2" onclick="G()">G</button>
+</div>
+<div class="btn">
+    
+    <button class="hbtn btn2 btn3 Btnfront" id="hbtn" onclick="h()">h</button>
+    <button class="Btnback btn2" onclick="H()">H</button>
+</div>
+<div class="btn">
+    
+    <button class="jbtn btn2 btn3 Btnfront" id="jbtn" onclick="j()">j</button>
+    <button class="Btnback btn2" onclick="J()">J</button>
+</div>
+<div class="btn">
+    
+    <button class="kbtn btn2 btn3 Btnfront" id="kbtn" onclick="k()">k</button>
+    <button class="Btnback btn2" onclick="K()">K</button>
+</div>
+<div class="btn">
+    
+    <button class="lbtn btn2 btn3 Btnfront" id="lbtn" onclick="l()">l</button>
+    <button class="Btnback btn2" onclick="L()">L</button>
+</div>
+<div class="btn">
+    
+    <button class="'btn  btn2 btn3 Btnfront"  id="chhbtn" onclick="ch()">'</button>
+    <button class="Btnback btn2" onclick="Ch()">"</button>
+</div>
+
+        <button onclick="ff(),Enterbtn()" class="Entbtn btnE" id="Entbtn">Enter</button>
+
+        <button class="Shifbtn btnS" id="Shiftbtn" onclick="Shift()">↑</button>
+
+<div class="btn">
+    
+    <button class="zbtn btn2 btn3 Btnfront" id="zbtn" onclick="z()">z</button>
+    <button class="Btnback btn2" onclick="Z()">Z</button>
+</div>
+<div class="btn">
+    
+    <button class="xbtn btn2 btn3 Btnfront" id="xbtn" onclick="x()">x</button>
+    <button class="Btnback btn2" onclick="X()">X</button>
+</div>
+<div class="btn">
+    
+    <button class="cbtn btn2 btn3 Btnfront" id="cbtn" onclick="c()">c</button>
+    <button class="Btnback btn2" onclick="C()">C</button>
+</div>
+<div class="btn">
+    
+    <button class="vbtn btn2 btn3 Btnfront" id="vbtn" onclick="v()">v</button>
+    <button class="Btnback btn2" onclick="V()">V</button>
+</div>
+<div class="btn">
+    
+    <button class="bbtn btn2 btn3 Btnfront" id="bbtn" onclick="b()">b</button>
+    <button class="Btnback btn2" onclick="B()">B</button>
+</div>
+<div class="btn">
+    
+    <button class="nbtn btn2 btn3 Btnfront" id="nbtn" onclick="n()">n</button>
+    <button class="Btnback btn2" onclick="N()">N</button>
+</div>
+<div class="btn">
+    
+    <button class="mbtn btn2 btn3 Btnfront" id="mbtn" onclick="m()">m</button>
+    <button class="Btnback btn2" onclick="M()">M</button>
+</div>
+<div class="btn">
+    
+    <button class=",btn btn2 btn3 Btnfront" id="stbtn" onclick="st()">,</button>
+    <button class="Btnback btn3" onclick="St()"><</button>
+</div>
+<div class="btn">
+    
+    <button class=".btn btn2 btn3 Btnfront" id="kebtn" onclick="ke()">.</button>
+    <button class="Btnback btn3" onclick="Ke()">></button>
+</div>
+<div class="btn">
+    
+    <button class="?btn btn2 btn3 Btnfront" id="habtn" onclick="ha()">/</button>
+    <button class="Btnback btn2" onclick="Ha()">?</button>
+</div>
+
+    <button class="Shifbtn btnS" id="Shiftbtn" onclick="Shift()">↑</button>
+
+            <button class="ctrlbtn btnC" id="NumberBtn" onclick="NumberChange()">&123</button>
+            <button class="ctrlbtn btnC">Ctrl</button>
+            <button class="altlbtn btnC" onclick="SmileChange()">:)</button>
+            <button class="spacebtn btnsp" onclick="Space()"></button>
+            <button class="altbtn btnC"><</button>
+            <button class="ctrlbtn btnC">></button>
+            <button class="ctrlbtnCol btnC" id="btnColor"onclick="ColorChange()">Color<img src="Без_названия-removebg-preview.png" alt="" class="img4" onclick="ColorChange()"></button>
+
+    </div>        
+    </div>
+
+    <script src="Keyboard.js" type="text/javascript"></script>
+</body>
+</html>
