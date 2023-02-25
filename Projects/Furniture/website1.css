@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    background-image: url(mockup-2752026_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 900px;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.IconDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 215px;
+}
+.NavUl{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+}
+.HomeLi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.CallDIv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 315px;
+}
+.HeaderFurn{
+    font-size: 100px;
+    font-weight: 900;
+    align-self: center;
+}
+.HeaderP{
+    align-self: center;
+}
+.FurnDiv{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 337px;
+    text-align: center;
+}
+.ArrowImpDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 476px;
+}
+.ArrowDiv1{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ArrowDiv2{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderContactUs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+.ButtonContactUsHeader{
+    background-color: gold;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.ServicesSect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+}
+.ServicesDiv{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 593px;
+}
+.ServicesH1{
+    align-self: center;
+    font-size: 50px;
+}
+.ServicesIconDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ServicesH1Div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ServicesDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 268px;
+}
+.Servicesdiv1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 268px;
+    width: 600px;
+}
+.Servicesdiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 268px;
+    width: 600px;
+}
+.BtnIcon{
+    width: 99px;
+    height: 34px;
+    border: none;
+    background-color: gold;
+    color: white;
+}
+.AboutUsSect{
+    background-color: gold;
+    min-height: 680px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AboutUsH1{
+    font-size: 50px;
+    color: white;
+}
+.AboutUsP{
+    color: white;
+}
+.AboutUsButton{
+    width: 140px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.AboutUsDiv{
+    min-height: 435px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.AboutUsH1Div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    min-height: 442px;
+
+}
+.ConceptH3{
+    color: gold;
+}
+.ConceptDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 515px;
+}
+.ConceptDiv{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 700px;
+}
+.ConceptSect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 870px;
+}
+.SearchDiv{
+    min-height: 372px;
+    width: 560px;
+    background-image: url(rustic-vegan-Aw.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchDivElipse{
+    background-color: rgba(255,187,0,0.8);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.WhoWeAreSect{
+    width: 100%;
+    background-color: rgba(255,187,0,0.9);
+    background-image: url(Layer\ 7.png);
+    min-height: 412px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.WhoWeAreH1{
+    font-size: 50px;
+    color: white;
+}
+.WhoWeAreH3{
+    color: white;
+}
+.WhoWeAreH6{
+    color: white;
+}
+.WhoWeAreBtn{
+    background-color: #fff;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+}
+.ProjectSect{
+    min-height: 730px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.ProjectModernDiv{
+    min-height: 441px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+.Project1{
+    background-image: url(staircase-27461\(1\).png);
+    height: 372px;
+    width: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Project1c{
+    width: 90%;
+    height: 320px;
+    background-color: rgba(255,187,0,0.7);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.ProjectHomeBtn{
+    border: white solid 1px;
+    background: none;
+    color: white;
+    width: 167px;
+    height: 59px;
+
+}
+.ProjectH1{
+    font-size: 50px;
+}
+.ProjectH1Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.ProjectH1c{
+    color: white;
+}
+.Project2{
+    background-image: url(becca-tapert-lA\(1\).png);
+    height: 372px;
+    width: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.ProjectDiv{
+    width: 100%;
+    min-height: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Project3{
+    background-image: url(staircase-27461\(1\).png);
+    height: 372px;
+    width: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Project2c{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-self: flex-start;
+}
+.LeftarrHome{
+    width: 55px;
+    height: 55px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SearchDiv2{
+    min-height: 372px;
+    width: 560px;
+    background-image: url(rustic-vegan-Aw.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProjectLeft{
+    width: 375px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ProjectRight{
+    width: 375px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Client1{
+    background-image: url(brooke-cagle-BP.png);
+    min-height: 123px;
+    width: 162px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 680px ){
+    .AboutUsImg{
+        width: 350px;
+        height: 300px;
+    }
+    .SearchDiv{
+        width: 200px;
+    }
+    .SearchDiv2{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 430px ){
+    .AboutUsImg{
+        width: 200px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 252px ){
+    .AboutUsImg{
+        width: 100px;
+        height: 50px;
+    }
+}
